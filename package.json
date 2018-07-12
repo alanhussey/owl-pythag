@@ -1,5 +1,6 @@
 {
   "name": "owl-pythag",
+  "homepage": "https://alanhussey.github.io/owl-pythag/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

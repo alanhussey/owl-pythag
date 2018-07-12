@@ -4,7 +4,6 @@
 .App-header {
   text-align: center;
   background-color: #222;
-  height: 50px;
   padding: 20px;
   color: white;
 }
@@ -15,11 +14,30 @@
 
 .App-intro {
   font-size: large;
+  color: white;
+}
+
+.App-intro a {
+  text-decoration: none;
+  color: lightseagreen;
 }
 
 .Table {
   margin: 0 auto;
   max-width: 40em;
+}
+
+.Table form {
+  margin: 1em 0;
+}
+
+.Table form strong {
+  display: block;
+}
+
+.Table form label {
+  display: inline-block;
+  padding: .25em 0;
 }
 
 .Table table {

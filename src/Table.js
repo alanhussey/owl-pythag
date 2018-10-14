@@ -61,7 +61,7 @@ export default class Table extends Component {
               onChange={event => this.setState({ usePoints: false })}
               checked={!options.usePoints}
             />
-            maps won/lost
+            game (maps) won/lost
           </label>
           <br />
           <label>
@@ -133,7 +133,10 @@ export default class Table extends Component {
           <tbody>
             {teams.map(team => (
               <tr key={team.name}>
-                <td style={{ textAlign: "left" }}>{team.name}</td>
+                <td style={{ textAlign: "left" }}>
+                    <img width="16" height="16" src={team.team.info.icon} alt="" />
+                    {team.name}
+                </td>
                 <td style={{ textAlign: "right" }}>{team.totalMatches}</td>
                 <td style={{ textAlign: "right" }}>
                   {team.matchesWon} - {team.matchesLost}

@@ -43,3 +43,8 @@
 .Table table {
   text-align: left;
 }
+
+.Table table th,
+.Table table td {
+  padding: 0 .25em;
+}

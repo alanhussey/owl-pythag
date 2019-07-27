@@ -44,7 +44,7 @@ export default class Table extends Component {
                 onChange={event => this.setState({ year: event.target.value })}
               >
                 <option selected={year === "2019"} value="2019">
-                  2019 (as of 2019-06-02)
+                  2019 (as of 2019-07-26)
                 </option>
                 <option selected={year === "2018"} value="2018">
                   2018

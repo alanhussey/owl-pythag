@@ -2,7 +2,6 @@
 
 # dependencies
 /node_modules
-data.json
 
 # testing
 /coverage
